@@ -6,7 +6,7 @@ F_CPU = 8000000
 FORMAT = ihex 
 
 # Target file name (without extension).
-TARGET = tvbgone
+TARGET = beacon
 #NA_CODE = 1
 
 # Optimization level, can be [0, 1, 2, 3, s]. 0 turns off optimization.
@@ -14,7 +14,7 @@ TARGET = tvbgone
 OPT = s
 
 # List C source files here. (C dependencies are automatically generated.)
-SRC = main.c WORLDcodes.c
+SRC = main.c
 
 # List Assembler source files here.
 # Make them always end in a capital .S.  Files ending in a lowercase .s
